@@ -19,4 +19,4 @@ This Firebase-powered project serves as a foundational template for creating eff
 | Register Screen<span style="color:red">*</span> | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/register.png" alt="Register Screen" width="292" height="633"></a> |
 | Chat Screen       | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/chat.png" alt="Chat Screen" width="270" height="600"></a> |
 | Gemini AI         | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/dpu.png" alt="Gemini AI" width="270" height="600"></a> |
-| Under Construction| <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/100.png" alt="Under Construction" width="270" height="600"></a> |
+| Gemini AI         | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/100.png" alt="Gemini AI" width="270" height="600"></a> |
