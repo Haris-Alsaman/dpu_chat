@@ -1,16 +1,24 @@
-# dpu_chat
+# Flutter Project with Firebase and Gemini Pro AI
 
-A new Flutter project.
+[![Flutter Version](https://img.shields.io/badge/flutter-v3.13.9%2B-blue.svg)](https://flutter.dev/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+This Firebase-powered project serves as a foundational template for creating efficient and user-friendly mobile applications centered around user authentication and real-time chat functionality with Gemini Pro via API integration. Leveraging Firebase's authentication capabilities, this project ensures secure user login functionalities while utilizing Gemini Pro API for seamless conversational experiences. By adhering to best practices in software design, such as modularity and testability, and implementing appropriate architectural patterns, developers can easily extend and maintain the application's scalability and reliability.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Screenshot (Temporary)
+
+| Feature | Screenshot/documentation |
+| ------- | ---------- |
+
+| Home Screen | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/home.png" alt="Dashboard Screen" width="292" height="633"></a> |
+| Sign Up Screen | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/sign_in.png" alt="Home Screen" width="292" height="633"></a> |
+| Register Screen<span style="color:red">*</span> | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/register.png" alt="DatePicker Alert Dialog" width="292" height="633"></a> |
+| Chat Screen | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/chat.png" alt="Drawer" width="270" height="600"></a> |
+| Gemini AI | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/dpu.png" alt="Profile" width="270" height="600"></a> |
+| Gemini AI  | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/100.png" alt="Under Construction" width="270" height="600"></a> |
