@@ -31,7 +31,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   child: Image.asset('images/logo.png'),
                 ),
                 Text(
-                  'MessageMe',
+                  'DPU Chat',
                   style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.w900,

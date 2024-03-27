@@ -26,7 +26,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'MessageMe app',
+        debugShowCheckedModeBanner: false,
+        title: 'DPU Chat',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),

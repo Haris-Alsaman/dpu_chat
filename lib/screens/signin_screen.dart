@@ -36,6 +36,16 @@ class _SignInScreenState extends State<SignInScreen> {
                 height: 180,
                 child: Image.asset('images/logo.png'),
               ),
+               Center(
+                 child: Text(
+                    'DPU Chat',
+                    style: TextStyle(
+                      fontSize: 40,
+                      fontWeight: FontWeight.w900,
+                      color: Color(0xff2e386b),
+                    ),
+                  ),
+               ),
               SizedBox(height: 50),
               TextField(
                 keyboardType: TextInputType.emailAddress,

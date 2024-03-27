@@ -41,13 +41,16 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // folating action button false
+  
       appBar: AppBar(
+        leading: Container(),
         backgroundColor: Colors.yellow[900],
         title: Row(
           children: [
             Image.asset('images/logo.png', height: 25),
             SizedBox(width: 10),
-            Text('MessageMe')
+            Text('DPU Chat', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
           ],
         ),
         actions: [
