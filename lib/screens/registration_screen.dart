@@ -127,11 +127,21 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   try {
                     final newUser = await _auth.createUserWithEmailAndPassword(
                         email: email, password: password);
-                    Navigator.pushNamed(context, ChatScreen.screenRoute);
+                    // Navigator.pushNamed(context, ChatScreen.screenRoute);
+                    Navigator.pushNamed(
+                        context, ChatScreen.screenRoute);
                     setState(() {
                       showSpinner = false;
                     });
                   } catch (e) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(e.toString()),
+                      ),
+                    );
+                    setState(() {
+                      showSpinner = false;
+                    });
                     print(e);
                   }
                 },

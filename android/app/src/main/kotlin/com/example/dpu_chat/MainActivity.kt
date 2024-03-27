@@ -1,4 +1,4 @@
-package com.dpu.dpu_chat
+package com.dpu.dpuchat
 
 import io.flutter.embedding.android.FlutterActivity
 

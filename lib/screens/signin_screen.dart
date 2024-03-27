@@ -124,12 +124,34 @@ class _SignInScreenState extends State<SignInScreen> {
                     final user = await _auth.signInWithEmailAndPassword(
                         email: email, password: password);
                     if (user != null) {
-                      Navigator.pushNamed(context, ChatScreen.screenRoute);
+                      // Navigator.pushNamed(context, ChatScreen.screenRoute);
+                      // go with out the back button
+                      Navigator.pushNamed(
+                          context, ChatScreen.screenRoute);
                       setState(() {
                         showSpinner = false;
                       });
                     }
+                    else {
+                     // show error message
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text('Invalid email or password'),
+                        ),
+                      );
+                       setState(() {
+                        showSpinner = false;
+                      });
+                    }
                   } catch (e) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text('Try again later'),
+                      ),
+                    );
+                    setState(() {
+                        showSpinner = false;
+                      });
                     print(e);
                   }
                 },
