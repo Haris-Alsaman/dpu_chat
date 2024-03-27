@@ -15,8 +15,8 @@ This Firebase-powered project serves as a foundational template for creating eff
 | Feature           | Screenshot/documentation                                                                                                      |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Home Screen       | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/home.png" alt="Home Screen" width="292" height="633"></a> |
-| Sign Up Screen    | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/sign_in.png" alt="Sign Up Screen" width="292" height="633"></a> |
-| Register Screen<span style="color:red">*</span> | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/register.png" alt="Register Screen" width="292" height="633"></a> |
+| Register Screen | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/register.png" alt="Register Screen" width="292" height="633"></a> |
+| Sing Up Screen | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/sign_in.png" alt="Register Screen" width="292" height="633"></a> |
 | Chat Screen       | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/chat.png" alt="Chat Screen" width="270" height="600"></a> |
 | Gemini AI         | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/dpu.png" alt="Gemini AI" width="270" height="600"></a> |
 | Gemini AI         | <a href="#"><img src="https://github.com/Haris-Alsaman/dpu_chat/blob/main/screenshots/100.png" alt="Gemini AI" width="270" height="600"></a> |
